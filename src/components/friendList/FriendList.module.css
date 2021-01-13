@@ -28,6 +28,7 @@
   }
   
   .status {
+      display: inline-block;
     width: 25px;
     height: 25px;
     margin-right: 20px;
@@ -35,11 +36,11 @@
   }
   
   .online {
-    /* composes: status; */
-    background-color: springgreen;
+    composes: status;
+    background-color: green;
   }
   
   .offline {
-    /* composes: status; */
-    background-color: salmon;
+    composes: status;
+    background-color: red;
   }
